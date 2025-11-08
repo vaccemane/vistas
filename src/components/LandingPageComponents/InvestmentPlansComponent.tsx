@@ -48,7 +48,7 @@ const InvestmentPlansComponent = () => {
     <div className='mb-16  mt-32 mx-6 lg:mx-16 text-lightDark text-[0.85rem]'>
     <div className='text-center flex flex-col items-center ' ref={headerContainer}>
         <h1 className='font-semibold  text-[1.5rem] scaleAnimate' >Investment plans</h1>
-        <p className='mdlg:w-[75%] scaleAnimate'>The RealVista shares limitedprovided with modern and reliable EV SSL encryption protocol and guarantees the security of confidential data.</p>
+        <p className='mdlg:w-[75%] scaleAnimate'>The Vintage Shares limited provided with modern and reliable EV SSL encryption protocol and guarantees the security of confidential data.</p>
     </div>
 
 

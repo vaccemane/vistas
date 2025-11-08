@@ -44,7 +44,7 @@ const OurFeatures = () => {
     <div className='mb-16  mt-32 mx-6 lg:mx-16 text-lightDark text-[0.85rem]'>
     <header className='text-center flex flex-col items-center' ref={headerContainer}>
         <h1 className='font-semibold  text-[1.5rem] scaleAnimateFeatures' >Our Features</h1>
-        <p className='mdlg:w-[60%] scaleAnimateFeatures' >The RealVista shares limitedprovided with modern and reliable EV SSL encryption protocol and guarantees the security of confidential data.</p>
+        <p className='mdlg:w-[60%] scaleAnimateFeatures' >The Vintage Shares limited provided with modern and reliable EV SSL encryption protocol and guarantees the security of confidential data.</p>
     </header>
 
 

@@ -14,7 +14,7 @@ const Footer = () => {
         <Certificate/>
         <ContactInfo/>
         </div>
-    <p className='my-4'>Copyright © 2025 | Real Vista Shares Limited | All rights reserved.</p>
+    <p className='my-4'>Copyright © 2025 | Vintage Shares Limited | All rights reserved.</p>
     </div>
   )
 }

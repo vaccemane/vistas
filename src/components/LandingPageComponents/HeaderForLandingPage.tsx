@@ -58,10 +58,10 @@ else{
     <div className='flex items-center justify-between py-4  mx-4'>
       <div className='lg:w-[20%]'>
     <Link href={"/"} className='flex items-center '>
-   <div className='w-[120px] h-[50px] relative'>
+   <div className='w-[100px] h-[60px] relative'>
      <Image 
      className='absolute w-full h-full object-contain'
-     src={"/logo.png"} alt='logo' fill/>
+     src={"/crop-logo.png"} alt='logo' fill/>
    </div>
     {/* < GiConcentricCrescents className='text-primary' size={43}/>
         <span className='text-primary mdsm:text-[0.73rem] font-semibold text-[0.8rem]'>RealVista  Shares 

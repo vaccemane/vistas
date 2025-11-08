@@ -7,11 +7,11 @@ export const LinksAndResources = () => {
 <h1 className='font-semibold text-footerTextOne'>LINKS AND RESOURCES</h1>
 
 <div className='flex flex-col gap-y-2 my-4 '>
-        <Link href={"#"} className='hover:text-footerTextOne cursor-pointer'>Home</Link>
-        <Link href={"#"} className='hover:text-footerTextOne cursor-pointer'>About Us</Link>
-        <Link href={"#"} className='hover:text-footerTextOne cursor-pointer'>Registration</Link>
-        <Link href={"#"} className='hover:text-footerTextOne cursor-pointer'>Login</Link>
-        <Link href={"#"} className='hover:text-footerTextOne cursor-pointer'>Frequently Asked Questions</Link>
+        <Link href={"/"} className='hover:text-footerTextOne cursor-pointer'>Home</Link>
+        <Link href={"/about"} className='hover:text-footerTextOne cursor-pointer'>About Us</Link>
+        <Link href={"/sign-up"} className='hover:text-footerTextOne cursor-pointer'>Registration</Link>
+        <Link href={"/sign-in"} className='hover:text-footerTextOne cursor-pointer'>Login</Link>
+        <Link href={"/faqs"} className='hover:text-footerTextOne cursor-pointer'>Frequently Asked Questions</Link>
 </div>
     </div>
   )

@@ -38,9 +38,9 @@ gsap.fromTo(paraRef.current,{
 <div className='lg:flex items-center text-lightDark my-16 mx-6'>
   <div className='lg:w-[50%] flex flex-col gap-y-8'>
 <h1 ref={headerRef} className='lg:text-[3.5rem] text-[2rem] leading-none'>
-Grow Wealth,
+Smart Investment,
 <br />
-Secure Your Future
+  Brighter Future
 </h1>
 <p ref={paraRef} className='lg:w-[50%] w-[300px] text-sm'>
 *Grow your assets, protect your tomorrow with our trusted investment solutions."*Our investment platform provides rewarding opportunities tailored for your financial growth."

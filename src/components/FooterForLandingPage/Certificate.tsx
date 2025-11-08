@@ -7,7 +7,7 @@ const Certificate = () => {
 <div className='relative w-[160px] h-[230px] my-4'>
     <Image
     className='absolute w-full h-full'
-    src={"/cert.png"} alt='certificate' fill />
+    src={"/new-cert.jpg"} alt='certificate' fill />
 </div>
 
     </div>

@@ -40,10 +40,10 @@ const Company = () => {
         <h1 className='font-semibold text-footerTextOne'>COMPANY</h1>
               <div className='my-4'>
     <Link href={"/"} className='flex items-center '>
-       <div className='w-[120px] h-[50px] relative'>
+       <div className='w-[80px] h-[50px] relative'>
          <Image 
          className='absolute w-full h-full object-contain'
-         src={"/logo.png"} alt='logo' fill/>
+         src={"/crop-logo.png"} alt='logo' fill/>
        </div>
     {/* < GiConcentricCrescents className='text-primary' size={43}/>
         <span className='text-primary mdsm:text-[0.73rem] font-semibold text-[0.8rem]'>RealVista  Shares 
@@ -52,7 +52,7 @@ const Company = () => {
     </Link>
       </div>
       <p className='text-[0.7rem]'>
-        Real Vista Shares offers you a share in a highly profitable business based on the trading of real estate and shares. We guarantee a stable profit to every investor of the company. Join and multiply your income with us!
+        Vintage Shares offers you a share in a highly profitable business based on the trading of real estate and shares. We guarantee a stable profit to every investor of the company. Join and multiply your income with us!
       </p>
 <div className=' w-[60%] flex  justify-between'>
 
