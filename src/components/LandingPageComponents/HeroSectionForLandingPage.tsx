@@ -43,7 +43,7 @@ Smart Investment,
   Brighter Future
 </h1>
 <p ref={paraRef} className='lg:w-[50%] w-[300px] text-sm'>
-*Grow your assets, protect your tomorrow with our trusted investment solutions."*Our investment platform provides rewarding opportunities tailored for your financial growth."
+Grow your assets, protect your tomorrow with our trusted investment solutions. Our investment platform provides rewarding opportunities tailored for your financial growth.
 
 </p>
 

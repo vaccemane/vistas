@@ -11,6 +11,7 @@ import Loader from '@/components/Loader';
 import { useRouter } from 'next/navigation';
 import { addUserInfo } from '@/store/slices/userSlice';
 import BtnLoader from '../../../utils/BtnLoader';
+import Image from 'next/image';
 
 // const domainAddress = process.env.NEXT_PUBLIC_DOMAIN_ADDRESS
 
@@ -86,10 +87,15 @@ console.log(formDetails);
             <section className='lg:w-[50%] md:w-[75%] w-[90%]'>
                   <div className='flex justify-center'>
     <Link href={"/"} className='flex items-center '>
-    < GiConcentricCrescents className='text-primary' size={43}/>
+    <div className='w-[100px] h-[60px] relative'>
+         <Image 
+         className='absolute w-full h-full object-contain'
+         src={"/crop-logo.png"} alt='logo' fill/>
+       </div>
+    {/* < GiConcentricCrescents className='text-primary' size={43}/>
         <span className='text-primary mdsm:text-[0.73rem] font-semibold text-[0.8rem]'>RealVista  Shares 
             <br />
-            Limited</span>
+            Limited</span> */}
     </Link>
       </div>
       
